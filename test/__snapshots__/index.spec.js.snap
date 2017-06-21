@@ -1,40 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`toMatchSnapshot mount 1`] = `
-.c1 {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
-.c0 {
+.c1 {
   font-size: 1.5em;
   -webkit-text-align: center;
   text-align: center;
   color: palevioletred;
 }
 
-.c0:hover {
+.c1:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c0 em {
+.c1 em {
   color: green;
 }
 
 @media (min-width: 600px) {
-  .c0 {
+  .c1 {
     color: blue;
   }
 }
 
 <styled.section>
   <section
-    className="c1"
+    className="c0"
   >
     <styled.h1>
       <h1
-        className="c0"
+        className="c1"
       >
         Hello World, this is my first styled component!
       </h1>
@@ -61,38 +61,38 @@ exports[`toMatchSnapshot shallow 1`] = `
 `;
 
 exports[`toMatchSnapshot test-renderer 1`] = `
-.c1 {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
-.c0 {
+.c1 {
   font-size: 1.5em;
   -webkit-text-align: center;
   text-align: center;
   color: palevioletred;
 }
 
-.c0:hover {
+.c1:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c0 em {
+.c1 em {
   color: green;
 }
 
 @media (min-width: 600px) {
-  .c0 {
+  .c1 {
     color: blue;
   }
 }
 
 <section
-  className="c1"
+  className="c0"
 >
   <h1
-    className="c0"
+    className="c1"
   >
     Hello World, this is my first styled component!
   </h1>

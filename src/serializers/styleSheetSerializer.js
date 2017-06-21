@@ -62,6 +62,7 @@ const getStyles = (classNames) => {
 
 const replaceClassNames = (classNames, output) => (
   classNames
+    .reverse()
     .reduce((acc, selector, index) => acc.replace(new RegExp(selector, 'g'), `c${index}`), output)
 )
 
