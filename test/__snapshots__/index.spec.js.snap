@@ -1,40 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`toMatchStyledComponentsSnapshot mount 1`] = `
-.iATjrR {
+.c1 {
   padding: 4em;
   background: papayawhip;
 }
 
-.dMjUoH {
+.c0 {
   font-size: 1.5em;
   -webkit-text-align: center;
   text-align: center;
   color: palevioletred;
 }
 
-.dMjUoH:hover {
+.c0:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.dMjUoH em {
+.c0 em {
   color: green;
 }
 
 @media (min-width: 600px) {
-  .dMjUoH {
+  .c0 {
     color: blue;
   }
 }
 
 <styled.section>
   <section
-    className="sc-bdVaJa iATjrR"
+    className="c1"
   >
     <styled.h1>
       <h1
-        className="sc-bwzfXH dMjUoH"
+        className="c0"
       >
         Hello World, this is my first styled component!
       </h1>
@@ -46,13 +46,13 @@ exports[`toMatchStyledComponentsSnapshot mount 1`] = `
 exports[`toMatchStyledComponentsSnapshot null 1`] = `null`;
 
 exports[`toMatchStyledComponentsSnapshot shallow 1`] = `
-.iATjrR {
+.c0 {
   padding: 4em;
   background: papayawhip;
 }
 
 <section
-  className="sc-bdVaJa iATjrR"
+  className="c0"
 >
   <styled.h1>
     Hello World, this is my first styled component!
@@ -61,38 +61,38 @@ exports[`toMatchStyledComponentsSnapshot shallow 1`] = `
 `;
 
 exports[`toMatchStyledComponentsSnapshot test-renderer 1`] = `
-.iATjrR {
+.c1 {
   padding: 4em;
   background: papayawhip;
 }
 
-.dMjUoH {
+.c0 {
   font-size: 1.5em;
   -webkit-text-align: center;
   text-align: center;
   color: palevioletred;
 }
 
-.dMjUoH:hover {
+.c0:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.dMjUoH em {
+.c0 em {
   color: green;
 }
 
 @media (min-width: 600px) {
-  .dMjUoH {
+  .c0 {
     color: blue;
   }
 }
 
 <section
-  className="sc-bdVaJa iATjrR"
+  className="c1"
 >
   <h1
-    className="sc-bwzfXH dMjUoH"
+    className="c0"
   >
     Hello World, this is my first styled component!
   </h1>

@@ -1,4 +1,5 @@
 const { ServerStyleSheet } = require('styled-components')
+const styleSheet = require('styled-components/lib/models/StyleSheet')
 
 const STYLE_TAGS_REGEXP = /<style[^>]*>([\s\S]*)<\/style>/
 
@@ -15,7 +16,7 @@ function isServer() {
 
 module.exports.isServer = isServer
 
-function getCSS(styleSheet) {
+function getCSS() {
   const overV2 = isOverV2()
   if (overV2 && isServer()) {
     return new ServerStyleSheet().getStyleTags().match(STYLE_TAGS_REGEXP)[1]

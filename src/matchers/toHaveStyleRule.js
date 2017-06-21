@@ -3,7 +3,6 @@ const {
   printReceived,
   printExpected,
 } = require('jest-matcher-utils')
-const styleSheet = require('styled-components/lib/models/StyleSheet')
 const { getCSS } = require('../utils')
 
 /**
@@ -51,7 +50,7 @@ const findClassName = (received) => {
 const toHaveStyleRule = (received, selector, value) => {
   try {
     const className = findClassName(received)
-    const css = getCSS(styleSheet)
+    const css = getCSS()
     const styles = new RegExp(`${className}[\\s]?{([^}]*)`, 'g').exec(css)
     const capture = new RegExp(`${selector}:[\\s]*([^;]+)`, 'g')
 
